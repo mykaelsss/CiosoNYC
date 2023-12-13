@@ -43,6 +43,7 @@
 .marquee_content li:hover {
     transform: scale(1.2); /* Adjust the scale factor as needed */
     transition: transform 0.6s ease; /* Add a smooth transition for a better visual effect */
+    z-index: 10;
 }
 
 
