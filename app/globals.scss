@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+:root {
+    --font-mont: 'Montserrat', sans-serif;
+    --font-kalnia: 'Kalnia', serif;
+    --font-dance: 'Dancing Script', cursive;
+    --blue: #83AAFF;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/font/Montserrat-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Kalnia';
+    src: url('/font/Kalnia-VariableFont_wdth,wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Dancing Script';
+    src: url('/font/DancingScript-VariableFont_wght.ttf') format('truetype');
+  }
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    font-family: var(--font-mont), Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left top,
+    #5d586a, #545569, #4a5368,
+    #3f5166, #334f63, #2f5466,
+    #2b5869, #275d6a, #2d6a72,
+    #377778, #43837d, #539081);
+    background-attachment: fixed;
+}

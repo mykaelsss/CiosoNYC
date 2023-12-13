@@ -1,0 +1,16 @@
+.marquee_content {
+    animation: move-marquee 6000ms linear infinite;
+    background: #593779;
+    background: linear-gradient(to bottom, #593779 0%, #000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes move-marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

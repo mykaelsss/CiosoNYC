@@ -1,0 +1,11 @@
+// @import url('/font/Kalnia-VariableFont_wdth,wght.ttf');
+.sale {
+    font-family: var(--font-kalnia), Arial, Helvetica, sans-serif !important;
+}
+.scriptSale{
+    font-family: var(--font-dance), Arial, Helvetica, sans-serif !important;
+}
+
+.sale, .scriptSale {
+    color: var(--blue);
+}
