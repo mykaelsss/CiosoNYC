@@ -44,9 +44,9 @@ export function Collection() {
                 <span>2024</span>
             </div>
             <div className={`${styles.marquee}`}>
-                <ul className={`${styles.marquee_content}`}>
+                <ul className={`${styles.marquee_content} z-50`}>
                     {collection.concat(collection).map((item, idx) => (
-                        <li key={idx} className={`text-slate-200 text-[1.5vw]`}>
+                        <li key={idx} className={`text-slate-200 text-[1.5vw] z-50`}>
                             <p>{item.name}</p>
                             <Image
                             src={item.src}
