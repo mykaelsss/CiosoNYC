@@ -15,7 +15,7 @@ export function Info() {
                 priority
                 width={500}
                 height={800}
-                className={`w-[90%] h-auto`}
+                className={`w-[65%] `}
                 />
             </div>
         </section>
